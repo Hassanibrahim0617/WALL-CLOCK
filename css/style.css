@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Romanesco&display=swap');
+
 body {
   display: flex;
   align-items: center;
@@ -73,4 +75,62 @@ body {
   border-radius: 100px;
   margin: auto;
   z-index: 1;
+}
+.number-12{
+  position: absolute;
+  top: 27%;
+  right: 48.5%;
+  color: #fca311;
+  font-family: 'Romanesco', cursive;
+  font-size: 35px;
+  font-weight: 700;
+}
+.number-3{
+  color: #fca311;
+  position: absolute;
+  top: 48%;
+  right: 37.5%;
+  font-family: 'Romanesco', cursive;
+  font-size: 35px;
+    font-weight: 700;
+}
+.number-6{
+  position: absolute;
+  color: #fca311;
+  top: 71%;
+  right: 49%;
+  font-family: 'Romanesco', cursive;
+  font-size: 35px;
+  font-weight: 700;
+}
+.number-9{
+  color: #fca311;
+  position: absolute;
+  top: 48%;
+    right: 60%;
+    font-family: 'Romanesco', cursive;
+    font-size: 35px;
+    font-weight: 700;
+}
+@media (max-width:1000px) {
+  .number-12{
+    top: 29%;
+    right: 45%;
+    font-size: 30px;
+  }
+  .number-3{
+    top: 49%;
+    right: 10%;
+    font-size: 30px;
+  }
+  .number-6{
+    top: 68%;
+    right: 47%;
+    font-size: 30px;
+  }
+  .number-9{
+    top: 49%;
+    right: 83%;
+    font-size: 30px;
+  }
 }

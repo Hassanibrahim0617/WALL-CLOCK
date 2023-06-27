@@ -7,7 +7,7 @@ clock();
 function clock() {
   const date = new Date();
 
-  const hour = date.getHours() *30 ;
+  const hour = date.getHours() *30;
   const minute = date.getMinutes() *6;
   const second = date.getSeconds() *6;
 
