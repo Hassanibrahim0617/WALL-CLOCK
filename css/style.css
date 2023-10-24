@@ -112,9 +112,9 @@ body {
     font-size: 35px;
     font-weight: 700;
 }
-@media (max-width:1000px) {
+@media (max-width:400px) {
   .number-12{
-    top: 29%;
+    top: 33%;
     right: 45%;
     font-size: 30px;
   }
@@ -124,7 +124,7 @@ body {
     font-size: 30px;
   }
   .number-6{
-    top: 68%;
+    top: 64%;
     right: 47%;
     font-size: 30px;
   }
